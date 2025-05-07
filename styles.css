@@ -1,0 +1,170 @@
+* {
+	margin: 0;
+	padding: 0;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+header {
+    background-image: url('img/background.jpg');
+	background-position: center 0;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+#efecto {
+    height: 100vh;
+    background: radial-gradient(circle, rgba(185,185,185,0.2), rgba(40,40,40,0.6));
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header h1, header h3, header h4 {
+	color: white;
+	font-family: 'Century Gothic', sans-serif;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+header h1 {
+	font-size: 4.3em;
+	letter-spacing: 0.13em;
+	padding-bottom: 0.21em;
+}
+
+header h3 {
+	font-weight: 300;
+	font-size: 1.5em;
+	letter-spacing: 0.15em;
+}
+
+header h4 {
+	font-weight: 300;
+	font-size: 1.3em;
+	letter-spacing: 0.2em;
+}
+
+.CV_img {
+    width: 15%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    overflow-x: hidden;
+    color: #181818;
+    background-color: #f7ecff;
+    font-family: 'Century Gothic', sans-serif;
+    line-height: 1.6;
+}
+
+#body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #7018ab;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+body p {
+    font-size: 1.2em;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 900px;
+    color: #333;
+    padding: 20px;
+}
+
+#body p{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #cc7cef;
+    font-size: 0.8em;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Estilos de la sección de portafolio */
+
+#portafolio {
+    padding: 50px 20px;
+    background-color: #f7ecff;
+}
+
+.portafolio__title {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #7018ab;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.flex-zone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.container-img {
+    flex: 1 1 calc(50% - 30px);
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.container-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.portafolio__link {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.portafolio__img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: opacity 0.3s ease;
+}
+
+.container-img h3 {
+    font-size: 1.3em;
+    color: #7018ab;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.container-img a:hover .portafolio__img {
+    opacity: 0.8;
+}
